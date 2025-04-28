@@ -2,6 +2,7 @@
 
 import pickle
 
+
 def save_model(predictor, path):
-    with open(path, 'wb') as f:
+    with open(path, "wb") as f:
         pickle.dump(predictor, f)
