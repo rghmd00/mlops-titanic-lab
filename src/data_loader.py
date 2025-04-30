@@ -1,7 +1,5 @@
 import pandas as pd
 
-file_path = "./../data/raw/train.csv"
-
 
 def load_data(file_path: str) -> pd.DataFrame:
     try:

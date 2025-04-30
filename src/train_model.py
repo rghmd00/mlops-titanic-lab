@@ -22,7 +22,3 @@ def train_model(train_df):
         y_pred = model.predict(X_test)
         acc = accuracy_score(y_test, y_pred)
         print(f"{name} Accuracy: {acc:.4f}")
-
-
-
-
