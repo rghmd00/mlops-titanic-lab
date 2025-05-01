@@ -1,9 +1,9 @@
 stages:
   train_model:
-    cmd: python src/pipeline.py --config config.yaml
+    cmd: python src/pipeline.py --config conf/config.yaml
     deps:
-    - config.yaml
+    - conf/config.yaml
     - data/raw/train.csv
     - src/pipeline.py
     outs:
-    - models/model.pkl
+    - models/predictor.pkl

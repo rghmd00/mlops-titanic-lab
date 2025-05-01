@@ -1,7 +1,7 @@
 # conf/config.yaml
 
 path: "./data/raw/train.csv"
-model_output: "models/predictor.pkl"
+model_output: "./models/predictor.pkl"
 
 split:
   test_size: 0.2
